@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!------------------------------ Header ------------------------------>
+      <header>
+        <div class="header__logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+
+        <button class="black"><a href="#">Free Consultation</a></button>
+      </header>
+
+      <!------------------------------ Skills Section ------------------------------>
+
+      <section class="skills">
+        <h1>Design solutions made easy</h1>
+        <p>
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+
+        <div class="skills__types">
+          <!----- Design ----->
+          <div class="design">
+            <img
+              src="Images/pattern-graphic-design.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <p>Graphic Design</p>
+          </div>
+          <!----- UI/UX----->
+          <div class="uiux">
+            <img src="Images/pattern-ui-ux.svg" alt="" aria-hidden="true" />
+            <p>UI/UX</p>
+          </div>
+          <!----- Apps ----->
+          <div class="apps">
+            <img src="Images/pattern-apps.svg" alt="" aria-hidden="true" />
+            <p>Apps</p>
+          </div>
+          <!----- Illustrations ----->
+          <div class="illustrations">
+            <img
+              src="Images/pattern-illustrations.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <p>Illustrations</p>
+          </div>
+          <!----- Photography ----->
+          <div class="photography">
+            <img
+              src="Images/pattern-photography.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <p>Photography</p>
+          </div>
+          <!----- Motion ----->
+          <div class="motion">
+            <img
+              src="Images/pattern-motion-graphics.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <p>Motion Graphics</p>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------ Hero Section ------------------------------>
+      <section class="hero">
+        <div class="hero__img">
+          <img src="images/image-amy.webp" alt="Amy" />
+        </div>
+
+        <div class="hero__description">
+          <h2>I’m Amy, and I’d love to work on your next project</h2>
+          <p>
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <button class="red"><a href="#">Free Consultation</a></button>
+        </div>
+      </section>
+
+      <!------------------------------ Work Section ------------------------------>
+
+      <section class="work">
+        <h2>My Work</h2>
+        <div class="work__slider">
+          <ul class="work__slider--slides">
+            <li>
+              <img src="Images/image-slide-1.jpg" alt="work1" />
+            </li>
+            <li><img src="Images/image-slide-2.jpg" alt="work2" /></li>
+            <li><img src="Images/image-slide-3.jpg" alt="work3" /></li>
+            <li><img src="Images/image-slide-4.jpg" alt="work4" /></li>
+            <li class="lastSlide">
+              <img src="Images/image-slide-5.jpg" alt="work5" />
+            </li>
+          </ul>
+
+          <div class="work__slider--btns">
+            <button class="previous">
+              <img src="Images/icon-arrow-left.svg" alt="previous" />
+            </button>
+            <button class="next">
+              <img src="Images/icon-arrow-right.svg" alt="next" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------ Booking Section ------------------------------>
+      <section class="booking">
+        <h2>Book a call with me</h2>
+
+        <div class="flex-group">
+          <p>
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+
+          <button class="red"><a href="#">Free Consultation</a></button>
+        </div>
+      </section>
+
+      <!------------------------------ Footer ------------------------------>
+      <footer>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+
+        <button class="black"><a href="#">Free Consultation</a></button>
+      </footer>
+    </div>
+
+    <!------------------------------ Scroll To Top Button ------------------------------>
+    <div class="scroll"><img src="Images/icon-arrow-left.svg" alt="" /></div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
